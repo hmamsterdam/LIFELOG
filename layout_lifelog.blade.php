@@ -7,6 +7,7 @@
       margin:-20px 0px -30px 0px; letter-spacing:-4pt; }
   ul { padding:0px; }
   hr { margin: 25px 100px; border-top:1px dashed #ddd; }
+  button { height:30px; width:30px; font-size:20pt; color:#999; margin:5px; border:none; }
   .menutitle { font-size:14pt; font-weight:bold; margin:0px; }
   .content { margin:10px; }
   .footer { text-align:right; font-size:10pt; margin:10px;
