@@ -16,7 +16,10 @@ Route::get('/', function () {
 });
 
 Route::get('hello',function(){
-  return '<html><body><h1>Hello</h1><p>This is sample page.</p></body></html>';
+    return '<html><body><h1>Hello</h1><p>This is sample page.</p></body></html>';
 });
 
-Route::get('calender', 'CalenderController@index');
+Route::get('calender', 'controller_calender@index');
+Route::post('calender', 'controller_calender@register');
+
+Route::post('calender/register', 'controller_calender@register');
